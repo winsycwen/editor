@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.editor {
+	width: 760px;
+	margin: 50px auto 0px auto;
+}
+.editor-toolbar {
+	padding: 5px 20px;
+	border: 1px solid #ccc;
+	height: 23px;
+}
+.editor-toolbar > li {
+	float: left;
+	margin: 0 2px;
+	list-style: none;
+	background-image: url("images/result.png");
+}
+.separator {
+	width: 10px;
+	height: 20px;
+	background-position: 0px -570px;
+} 
+.toolbar-icon {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	border: 1px solid white;
+}
+.toolbar-icon:hover {
+	background-color: #ffe69f;
+	border: 1px solid #dcac6c;
+}
+
+.toolbar-icon-checked {
+	background-color: #ffe69f;
+	border: 1px solid #dcac6c;
+}
+.revocation {
+	background-position: 0px 0px;
+}
+.reRevocation {
+	background-position: 0px -30px;
+}
+.paste {
+	background-position: 0px -60px;
+}
+.cut {
+	background-position: 0px -90px;
+}
+.copy {
+	background-position: 0px -120px;
+}
+.formatPainter {
+	background-position: 0px -150px;
+}
+#font,#fontSize {
+	margin-top: 1px;
+}
+.fontColor {
+	width: 15px;
+	background-position: 0px -180px;
+	background:url("images/icons_37.gif");
+}
+.fontColor:hover {
+	background-color: white;
+	border: 1px solid white;
+}
+.dump {
+	position: relative;
+	width: 10px;
+	background-position: 0px -210px;
+	background-repeat: no-repeat;
+}
+#fontSelect {
+	position: absolute;
+	width: 100px;
+	display: none;
+	left: -20px;
+	top: 20px;
+	background-color: white;
+	border: 1px solid gray;
+}
+#fontSelect li{
+	float: left;
+	list-style: none;
+	width: 100px;
+}
+#fontSelect li:hover {
+	background-color: #ffe69f;
+}
+.dump:hover #fontSelect {
+	display: block;
+}
+.bold {
+	background-position: 0px -240px;
+}
+.italic {
+	background-position: 0px -270px;
+}
+.underline {
+	background-position: 0px -300px;
+}
+.insertorderedlist {
+	background-position: 0px -330px;
+}
+.insertunorderedlist {
+	background-position: 0px -360px;
+}
+.justifyleft {
+	background-position: 0px -390px;
+}
+.justifycenter {
+	background-position: 0px -420px;
+}
+.justifyright {
+	background-position: 0px -450px;
+}
+.pic {
+	background-position: 0px -510px;
+}
+#upload {
+	display: none;
+}
+.createlink {
+	background-position: 0px -540px;
+}
+#richeditor {
+	width: 758px;
+	height: 300px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
